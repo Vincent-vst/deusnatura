@@ -7,10 +7,11 @@ export default function App() {
     <View>
       <Text>Deus Natura</Text>
       <Text>A music training platform</Text>
-
       <Link href="/repeat">Goto repeat</Link>
       <Link href="/improvisation">Goto improvisation</Link>
       <Link href="/theory">Goto theory</Link>
+      <Link href="/eartraining">Goto eartraining</Link>
+      <Link href="/sightreading">Goto sightreading</Link>
     </View>
   );
 }
