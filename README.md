@@ -13,10 +13,10 @@ __release date__ : 15/09/24
 
 Deus Natura is a collection of music exercices I have encountered while applying to different universities/conservatories.   
 - *ear training* : An interval identification exercice. 
-- *repeat* : 
-- *theory* : 
-- *improvisation* : 
-- *sight reading* : 
+- *repeat* : Hear and repeat a melody/sample
+- *theory* : Collection of music theory questions
+- *improvisation* : A random backing track generator
+- *sight reading* : Random score generator
 
 
 ## Install 
@@ -40,9 +40,9 @@ serve -s dist
 docker compose up --build
 ```
 
-
-
 ## Infos 
 
 For any issues regarding deusnatura.com, open an issue or contact me at `contact@deusnatura.com`   
-
+*Roadmap :* 
+- [ ] : React refactor
+- [ ] : Add release 

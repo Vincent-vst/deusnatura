@@ -1,7 +1,9 @@
-export default function Repeat(){
-    return (
-        <>
-            <h1>Repeat</h1>
-        </>
-    );
+const Repeat = () => {
+  return (
+    <div>
+        <h1>Repeat</h1>
+    </div>
+  )
 }
+
+export default Repeat

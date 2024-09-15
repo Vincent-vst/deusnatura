@@ -1,19 +1,22 @@
-import { ReactDOM } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Repeat from "./pages/repeat";
-import Layout from "./pages/Layout";
+import { Routes, Route } from "react-router-dom";
+import Repeat from "./pages/Repeat";
+import Home from "./pages/Home";
+import Improvisation from "./pages/Improvisation";
+import SightReading from "./pages/SightReading";
+import EarTraining from "./pages/EarTraining";
+import Theory from "./pages/Theory";
 
 function App() {
   return (
     <>
-      <h1>index</h1>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="repeat" element={<Repeat />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/repeat" element={<Repeat />} />
+        <Route path="/improvisation" element={<Improvisation />} />
+        <Route path="/sightreading" element={<SightReading />} />
+        <Route path="/eartraining" element={<EarTraining />} />
+        <Route path="/theory" element={<Theory />} />
+      </Routes>
     </>
   );
 }
