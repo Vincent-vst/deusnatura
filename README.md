@@ -3,8 +3,9 @@
 
 Deus Natura is a training platform for musician.   
 Deus natura is live at : https://deusnatura.com    
-__release__ : 0.0.4
-__author__ : vincent@deusnatura.com
+__version__ : 0.0.4   
+__author__ : vincent@deusnatura.com   
+__release date__ : 15/09/24   
 
 <!-- [image](presentation) -->
 
