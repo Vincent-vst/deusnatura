@@ -1,10 +1,18 @@
+import { useState } from "react";
+import { randomBackingTrack } from "./core/ImprovisationCore";
+
 export default function Improvisation() {
+  const [backingTrack, setBackingTrack] = useState(randomBackingTrack());
   return (
     <>
       <h1>Improvisation</h1>
-      <audio controls>
-        <source type="audio/mpeg" src="../assets/audio/backingtrack/0.mp3" />
-      </audio>
+      <button
+        type="button"
+        onClick={() => setBackingTrack(randomBackingTrack())}
+      >
+        rnd
+      </button>
+      <audio controls src={backingTrack} />
     </>
   );
 }
