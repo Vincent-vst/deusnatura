@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { randomScoreURL } from "./core/SightReadingCore";
 
 export default function SightReading() {
-
   //TODO : there has to be a more reacty way to do this
   function createTag() {
     if (document.getElementById("iframeScore")) {
