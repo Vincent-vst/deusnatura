@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { randomBackingTrack } from "./core/ImprovisationCore";
+import { randomBackingTrack } from "../core/ImprovisationCore";
 
 export default function Improvisation() {
   const [backingTrack, setBackingTrack] = useState(randomBackingTrack());

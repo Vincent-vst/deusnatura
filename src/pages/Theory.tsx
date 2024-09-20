@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { type, notes, modes, chords, random } from "./core/TheoryCore";
+import { type, notes, modes, chords, random } from "../core/TheoryCore";
 
 export default function Theory() {
   const [exercice, setExercice] = useState(random(type));

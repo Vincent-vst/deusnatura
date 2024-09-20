@@ -43,5 +43,19 @@ const score = [
 ];
 
 export function randomScoreURL() {
-  return score[Math.floor(Math.random() * score.length)] +"/embed";
+  return score[Math.floor(Math.random() * score.length)] + "/embed";
+}
+
+//TODO : there has to be a more reacty way to do this
+export function createTag() {
+  if (document.getElementById("iframeScore")) {
+    const elem = document.getElementById("iframeScore");
+    elem?.parentNode?.removeChild(elem);
+  }
+  const nextFrame = document.createElement("iframe");
+  nextFrame.setAttribute("src", randomScoreURL());
+  nextFrame.setAttribute("id", "iframeScore");
+  nextFrame.setAttribute("height", "800px");
+  nextFrame.setAttribute("width", "100%");
+  document.getElementById("frame")?.appendChild(nextFrame);
 }

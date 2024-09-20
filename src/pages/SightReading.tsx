@@ -1,17 +1,7 @@
-import { randomScoreURL } from "./core/SightReadingCore";
+import { randomScoreURL, createTag } from "../core/SightReadingCore";
 
 export default function SightReading() {
-  //TODO : there has to be a more reacty way to do this
-  function createTag() {
-    if (document.getElementById("iframeScore")) {
-      const elem = document.getElementById("iframeScore");
-      elem?.parentNode?.removeChild(elem);
-    }
-    const nextFrame = document.createElement("iframe");
-    nextFrame.setAttribute("src", randomScoreURL());
-    nextFrame.setAttribute("id", "iframeScore");
-    document.getElementById("frame")?.appendChild(nextFrame);
-  }
+  
 
   return (
     <>
@@ -20,7 +10,7 @@ export default function SightReading() {
         test
       </button>
       <div id="frame">
-        <iframe src={randomScoreURL()} id="iframeScore"></iframe>
+        <iframe src={randomScoreURL()} id="iframeScore" height="700px" width="100%"></iframe>
       </div>
     </>
   );
