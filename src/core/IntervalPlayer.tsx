@@ -72,7 +72,7 @@ function sleep(time: number) {
 
 export default function playInterval(note1: string, note2: string) {
   const sound1 = new Howl({
-    src: [`/src/assets/audio/notes/${note1}.wav`],
+    src: [`/assets/audio/notes/${note1}.wav`],
     onplay: function () {
       sleep(1000).then(() => {
         sound2.play();
@@ -81,7 +81,7 @@ export default function playInterval(note1: string, note2: string) {
   });
 
   const sound2 = new Howl({
-    src: [`/src/assets/audio/notes/${note2}.wav`],
+    src: [`/assets/audio/notes/${note2}.wav`],
   });
   sound1.play();
 }

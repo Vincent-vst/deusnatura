@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Repeat() {
   function randomMidiFile() {
-    return "/src/assets/audio/midi/" + Math.floor(Math.random() * 102) + ".mid";
+    return "/assets/audio/midi/" + Math.floor(Math.random() * 102) + ".mid";
   }
   const [midiFile, setMidiFile] = useState(randomMidiFile);
 
