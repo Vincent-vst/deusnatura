@@ -1,25 +1,48 @@
-import { Link } from "react-router-dom";
+import Card from "./Card";
 
 const ModulesNav = () => {
   return (
     <nav>
-      <ul>
-        <li className="card">
-          <Link to="/eartraining">Ear training</Link>
-        </li>
-        <li className="card">
-          <Link to="/repeat">Repeat</Link>
-        </li>
-        <li className="card">
-          <Link to="/sightreading">Sight reading</Link>
-        </li>
-        <li className="card">
-          <Link to="/theory">Theory</Link>
-        </li>
-        <li className="card">
-          <Link to="/improvisation">Improvisation</Link>
-        </li>
-      </ul>
+      <div className="main-card">
+        <Card
+          path="/eartraining"
+          imagePath="/assets/icons/ear.png"
+          name="Ear training"
+          description="Recognize any intervals"
+        />
+      </div>
+      <div className="card">
+        <Card
+          path="/repeat"
+          imagePath="/assets/icons/repeat.png"
+          name="Repeat"
+          description="Instantly play back a melody"
+        />
+      </div>
+      <div className="card">
+        <Card
+          path="/sightreading"
+          imagePath="/assets/icons/sightreading.png"
+          name="Sight Reading"
+          description="Sight read any score"
+        />
+      </div>
+      <div className="card">
+        <Card
+          path="/theory"
+          imagePath="/assets/icons/theory.png"
+          name="Theory"
+          description="Music theory questions"
+        />
+      </div>
+      <div className="card">
+        <Card
+          path="/improvisation"
+          imagePath="/assets/icons/improvisation.png"
+          name="Improvisation"
+          description="Improvise over a backing track"
+        />
+      </div>
     </nav>
   );
 };

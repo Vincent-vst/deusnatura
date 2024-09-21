@@ -1,9 +1,9 @@
 @import "./variables.scss";
 @import "./main.scss";
 
-*{
-    margin: 0; 
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
 }
 
 #home {
@@ -14,28 +14,84 @@
     display: flex;
     align-items: center;
 
-    #top-bar{
-        border: 1px solid red; 
+    #top-bar {
+        height: 100px;
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
 
-        img{
-            width: 40px; 
+        img {
+            width: 40px;
+        }
+
+        #logo {
+            font-family: Inter;
+            width: 100px;
+            font-size: 1.1rem;
+            // text-align: right;
+            font-weight: normal;
         }
     }
 
-    h1{
-        font-size: 1.2rem;
+    #title {
+        font-size: 1.8rem;
+        margin-bottom: 50px;
+        font-family: Inter;
+        font-weight: normal;
     }
 
-    ul {
-        .card{
-            height: 80px;
-            border: 1px solid $font-secondary; 
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px 120px 120px;
+        gap: 20px;
+        width: 80%;
+        font-family: Inter;
+
+        $border-radius: 5px;
+        $border: 1px solid $card-border;
+
+        @mixin card-inside($img-margin) {
+            a {
+                text-decoration: none;
+                img {
+                    margin-bottom: $img-margin;
+                }
+                h3 {
+                    color: $font-primary;
+                    font-size: 0.95rem;
+                    font-weight: lighter;
+                }
+                p {
+                    color: $font-secondary;
+                    font-weight: lighter;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            width: 50%;
+            $row-height: 170px;
+            grid-template-rows: $row-height $row-height $row-height;
+        }
+
+        .main-card {
+            padding: 10px;
             background: $card-background;
+            border: $border;
+            border-radius: $border-radius;
+            grid-column: span 2;
+            @include card-inside(30px);
+        }
+        .card {
+            background: $card-background;
+            padding: 10px;
+            border: $border;
+            border-radius: $border-radius;
+            @include card-inside(25px);
         }
     }
 }

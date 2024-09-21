@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div id="home">
         <TopBar />
-        <h1>Welcome back !</h1>
+        <h1 id="title">Welcome back !</h1>
         <ModulesNav />
       </div>
     </>

@@ -1,1 +1,9 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+  font-weight: lighter;
+}/*# sourceMappingURL=main.css.map */
