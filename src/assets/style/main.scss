@@ -1,0 +1,14 @@
+@import "./variables.scss";
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin default {
+    margin: 0;
+    padding: 0;
+    background: $background-gradient;
+    text-decoration: none;
+}

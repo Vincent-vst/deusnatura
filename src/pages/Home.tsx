@@ -1,12 +1,17 @@
-import ModulesNav from '../components/ModulesNav';
+import ModulesNav from "../components/ModulesNav";
+import TopBar from "../components/TopBar";
+import "/src/assets/style/home.css";
 
 const Home = () => {
   return (
-    <div>
-        <h1>Home</h1>
+    <>
+      <div id="home">
+        <TopBar />
+        <h1>Welcome back !</h1>
         <ModulesNav />
-    </div>
-  )
-}
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;

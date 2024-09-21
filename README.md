@@ -9,7 +9,7 @@ The dev version is live at : https://vincent-vst.github.io/
 **contact** : contact@deusnatura.com
 
 <!-- [image](presentation) -->
-<img src="/public/assets/images/presentation.png" width="200" alt="presentation">
+<img src="/public/assets/images/presentation.png" align="right" width="250" alt="presentation">
 
 ## About
 

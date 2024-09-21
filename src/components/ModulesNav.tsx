@@ -4,19 +4,19 @@ const ModulesNav = () => {
   return (
     <nav>
       <ul>
-        <li>
+        <li className="card">
           <Link to="/eartraining">Ear training</Link>
         </li>
-        <li>
+        <li className="card">
           <Link to="/repeat">Repeat</Link>
         </li>
-        <li>
+        <li className="card">
           <Link to="/sightreading">Sight reading</Link>
         </li>
-        <li>
+        <li className="card">
           <Link to="/theory">Theory</Link>
         </li>
-        <li>
+        <li className="card">
           <Link to="/improvisation">Improvisation</Link>
         </li>
       </ul>

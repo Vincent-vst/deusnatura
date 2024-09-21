@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  color: #ffffff;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(10deg, rgb(17, 16, 21) 50%, rgb(35, 37, 51) 100%);
+  text-decoration: none;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#home #top-bar {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#home #top-bar img {
+  width: 40px;
+}
+#home h1 {
+  font-size: 1.2rem;
+}
+#home ul .card {
+  height: 80px;
+  border: 1px solid #c5c5c5;
+  background: #232227;
+}/*# sourceMappingURL=home.css.map */
