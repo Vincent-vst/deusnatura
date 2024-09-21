@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Assets file is too big for github
-/src/assets
+# /src/assets

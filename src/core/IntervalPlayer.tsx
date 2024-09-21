@@ -64,7 +64,6 @@ const notes = [
   "E4",
   "F4",
   "Gb4",
-  "G4",
 ];
 
 function sleep(time: number) {
