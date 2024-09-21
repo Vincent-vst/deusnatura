@@ -1,26 +1,18 @@
-import { Howl, Howler } from "howler";
+import { Howl } from "howler";
+import { playRandomInterval, intervalNames } from "../core/IntervalPlayer";
 
-const EarTraining = () => {
-  const sound = new Howl({
-    src: ["/src/assets/audio/notes/A3.wav"],
-    html5: true,
-  });
-  const sound2 = new Howl({
-    src: ["/src/assets/audio/notes/B3.wav"],
-    html5: true,
-  });
-  sound.play();
-  sound2.play();
+export default function EarTraining() {
   return (
     <div>
       <h1>Ear training</h1>
-      {/* TODO : try to play notes first
-      Then play interval
-      then say which interval it is 
-      https://jsfiddle.net/2syojed6/2/
-      */}
+      <button type="button" onClick={() => playRandomInterval()}>
+        play
+      </button>
+      <ul>
+        {intervalNames.map((interval) => (
+          <li key={interval}><a href={void(0)} onClick={()=> console.log(interval)}>{interval}</a></li>
+        ))}
+      </ul>
     </div>
   );
-};
-
-export default EarTraining;
+}

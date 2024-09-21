@@ -1,8 +1,6 @@
 import { randomScoreURL, createTag } from "../core/SightReadingCore";
 
 export default function SightReading() {
-  
-
   return (
     <>
       <h1>Sight reading</h1>
