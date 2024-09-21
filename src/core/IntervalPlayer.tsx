@@ -1,3 +1,6 @@
+// @ts-ignore
+import { Howl } from "howler";
+
 export const intervalNames = [
   "unisson",
   "minor 2nd",
@@ -95,7 +98,6 @@ export function getRandomNotes() {
 
 export function playRandomInterval() {
   const notes = getRandomNotes();
-  console.log(notes);
   console.log(getIntervalName(notes[0], notes[1]));
   playInterval(notes[0], notes[1]);
 }

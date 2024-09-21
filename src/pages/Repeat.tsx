@@ -1,3 +1,4 @@
+// @ts-ignore
 import MidiPlayer from "react-midi-player";
 import { useState } from "react";
 

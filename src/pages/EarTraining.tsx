@@ -1,4 +1,3 @@
-import { Howl } from "howler";
 import { playRandomInterval, intervalNames } from "../core/IntervalPlayer";
 
 export default function EarTraining() {
