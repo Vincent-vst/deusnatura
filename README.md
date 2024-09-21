@@ -1,22 +1,25 @@
 # Deus Natura 
 
 
-Deus Natura is a training platform for musician.   
+Deus Natura is a music training platform for artists and musician wanting to improve their skills.   
 Deus natura is live at : https://deusnatura.com    
-__version__ : 0.0.4   
+The dev version is live at : https://vincent-vst.github.io/     
+__version__ : 0.0.5   
 __author__ : vincent@deusnatura.com   
 __release date__ : 15/09/24   
+__contact__ : contact@deusnatura.com   
 
 <!-- [image](presentation) -->
 
 ## About 
 
-Deus Natura is a collection of music exercices I have encountered while applying to different universities/conservatories.   
+Deus Natura is a collection of music exercices I have encountered while applying to different universities and conservatories.   
+It consists of five main modules :   
 - *ear training* : An interval identification exercice. 
 - *repeat* : Hear and repeat a melody/sample
-- *theory* : Collection of music theory questions
-- *improvisation* : A random backing track generator
-- *sight reading* : Random score generator
+- *theory* : A bunch of music theory questions
+- *improvisation* : A random backing track player   
+- *sight reading* : Display a random score   
 
 
 ## Install 
@@ -31,7 +34,6 @@ npm run dev
 
 ```bash
 npm run build
-serve -s dist
 ```
 
 *or using the dockerized version*  
@@ -42,7 +44,5 @@ docker compose up --build
 
 ## Infos 
 
-For any issues regarding deusnatura.com, open an issue or contact me at `contact@deusnatura.com`   
-*Roadmap :* 
-- [ ] : React refactor
-- [ ] : Add release 
+For any issues regarding deusnatura.com, contact me at `contact@deusnatura.com`   
+Pull requests are welcome.   
