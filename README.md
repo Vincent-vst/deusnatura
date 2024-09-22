@@ -9,9 +9,10 @@ The dev version is live at : https://vincent-vst.github.io/
 **author** : vincent@deusnatura.com  
 **release date** : 15/09/24  
 **contact** : contact@deusnatura.com
-<br>
 
-<!-- [image](presentation) -->
+<br>   
+<br>
+<br>
 
 ## About
 
