@@ -1,0 +1,41 @@
+@import "./variables.scss";
+@import "./main.scss";
+
+#repeat {
+    @include default;
+    height: 100vh;
+    @include center;
+    flex-direction: column;
+    h1 {
+        color: $font-primary;
+        font-family: Inter;
+        font-weight: lighter;
+    }
+
+    div {
+        background-color: transparent !important;
+    }
+
+    @mixin button-player {
+        border: none !important;
+        svg {
+            filter: invert(1);
+        }
+    }
+
+    div[title^="play"] {
+        @include button-player();
+    }
+    div[title^="pause"] {
+        @include button-player();
+    }
+    div[title^="stop"] {
+        @include button-player();
+    }
+    div[title^="loop"] {
+        @include button-player();
+    }
+    div[title^="Web Audio"] {
+        @include button-player();
+    }
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+  font-weight: lighter;
+}
+#theory {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(10deg, rgb(17, 16, 21) 80%, rgb(35, 37, 51) 100%);
+  text-decoration: none;
+  height: 100vh;
+  font-family: Inter;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#theory h1 {
+  font-weight: lighter;
+}/*# sourceMappingURL=theory.css.map */

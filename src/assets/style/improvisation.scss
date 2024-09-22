@@ -1,0 +1,18 @@
+@import "variables";
+@import "main";
+
+#improvisation {
+    @include default;
+    height: 100vh;
+    font-family: Inter;
+    color: $font-primary; 
+    @include center; 
+    flex-direction: column;
+
+    audio{
+        filter: invert(1);
+    }
+    // h1{
+    //     font-weight: lighter;
+    // }
+}

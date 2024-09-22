@@ -1,0 +1,21 @@
+@import "./variables.scss";
+@import "./main.scss";
+
+#sight-reading{
+    @include default; 
+    height: 100vh;
+    @include center;
+    flex-direction: column;
+
+    h1{
+        color: $font-primary;
+        font-family: Inter;
+        font-weight: lighter;
+    }
+
+    iframe{
+        height: 80vh;
+        border: none; 
+        width: 80vw;
+    }
+}

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { type, notes, modes, chords, random } from "../core/TheoryCore";
+import randomIcon from "/src/assets/icons/random.png";
+import "/src/assets/style/theory.css";
 
 export default function Theory() {
   const [exercice, setExercice] = useState(random(type));
@@ -16,13 +18,15 @@ export default function Theory() {
 
   return (
     <>
-      <h1>Theory</h1>
-      <button type="button" onClick={() => randomExercice()}>
-        rnd
-      </button>
-      <p>Play the following : {exercice}</p>
-      <div className="question">
-        {note} {exercice === "scale" ? mode : chord}
+      <div id="theory">
+        <h1>Theory</h1>
+        <a href={void 0} onClick={() => randomExercice()}>
+          <img src={randomIcon} alt="random theory" />
+        </a>
+        <p>Play the following : {exercice}</p>
+        <div className="question">
+          {note} {exercice === "scale" ? mode : chord}
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,15 @@
+@import "variables";
+@import "main";
+
+#theory {
+    @include default;
+    height: 100vh;
+    font-family: Inter;
+    color: $font-primary; 
+    @include center; 
+    flex-direction: column;
+
+    h1{
+        font-weight: lighter;
+    }
+}

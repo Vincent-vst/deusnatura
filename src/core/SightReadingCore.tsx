@@ -80,7 +80,5 @@ export function createTag() {
   const nextFrame = document.createElement("iframe");
   nextFrame.setAttribute("src", randomScoreURL());
   nextFrame.setAttribute("id", "iframeScore");
-  nextFrame.setAttribute("height", "800px");
-  nextFrame.setAttribute("width", "100%");
   document.getElementById("frame")?.appendChild(nextFrame);
 }

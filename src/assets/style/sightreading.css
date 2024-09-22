@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+  font-weight: lighter;
+}
+#sight-reading {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(10deg, rgb(17, 16, 21) 80%, rgb(35, 37, 51) 100%);
+  text-decoration: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sight-reading h1 {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: lighter;
+}
+#sight-reading iframe {
+  height: 80vh;
+  border: none;
+  width: 80vw;
+}/*# sourceMappingURL=sightreading.css.map */
