@@ -1,6 +1,5 @@
 // @ts-ignore
 import { Howl } from "howler";
-import useSound from "use-sound";
 import risingPopos from "/src/assets/audio/rising-pops.mp3";
 import boop from "/src/assets/audio/boop.mp3";
 
@@ -140,17 +139,31 @@ function isCorrectAnswer(userIntervalAnswer: string) {
 }
 
 function styleDivTrue(divClicked: HTMLElement) {
-  // const [play] = useSound(risingPopos);
-  divClicked.style.background = "green";
+  const fx = new Howl({
+    src: [risingPopos],
+  });
+  fx.play();
+  divClicked.style.background = "#87DD71";
+  sleep(100).then(() => {
+    divClicked.style.background = "none";
+  });
 }
 function styleDivFalse(divClicked: HTMLElement) {
-  divClicked.style.background = "red";
+  const fx = new Howl({
+    src: [boop],
+  });
+  fx.play();
+  divClicked.style.background = "#DF6262";
+  sleep(100).then(() => {
+    divClicked.style.background = "none";
+  });
 }
 
 export function styleDive(userIntervalAnswer: string) {
-  const divClicked = document.getElementById(userIntervalAnswer);
+  const divClicked = document.getElementById(userIntervalAnswer)!;
   if (isCorrectAnswer(userIntervalAnswer)) {
     styleDivTrue(divClicked);
+    playRandomInterval()
   } else {
     styleDivFalse(divClicked);
   }
