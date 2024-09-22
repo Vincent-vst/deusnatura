@@ -1,7 +1,18 @@
+<h3 align="center">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+</h3>
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
+
 # Deus Natura
 
 <img src="/public/assets/images/presentation.png" align="right" width="250" alt="presentation">
-
 
 <br>
 <br>
@@ -31,13 +42,13 @@ It consists of five main modules :
 
 ## Docs
 
-The docs are published on my [notion](https://vincentdescatoire.notion.site/Documentation-and-bug-report-bbc7d42576684a61b1d2f75c4bfa0b7f).       
+The docs are published on my [notion](https://vincentdescatoire.notion.site/Documentation-and-bug-report-bbc7d42576684a61b1d2f75c4bfa0b7f).
 
 <ins>credits</ins>
+
 - The ear training module is inspired by [this video](https://youtu.be/hWA6HwScQh8)
 - The repeat module is influenced by this [berklee exercice](https://www.youtube.com/watch?v=khChSE2RETg&t=56s)
 - The theory questions are inspired by those [interview questions](https://youtu.be/TAAbp7P--5s)
-
 
 ## Install
 
