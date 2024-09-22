@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter.ttf");
+  font-weight: lighter;
+}
+#ear-training {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(10deg, rgb(17, 16, 21) 80%, rgb(35, 37, 51) 100%);
+  text-decoration: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#ear-training h1 {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+#ear-training ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
+  gap: 20px;
+}
+#ear-training ul li {
+  height: 50px;
+  list-style: none;
+  border: 1px solid #232227;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#ear-training ul li a {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: lighter;
+}/*# sourceMappingURL=interval.css.map */

@@ -1,5 +1,10 @@
 // @ts-ignore
 import { Howl } from "howler";
+import useSound from "use-sound";
+import risingPopos from "/src/assets/audio/rising-pops.mp3";
+import boop from "/src/assets/audio/boop.mp3";
+
+let answer = "";
 
 export const intervalNames = [
   "unisson",
@@ -97,7 +102,8 @@ export function getRandomNotes() {
 
 export function playRandomInterval() {
   const notes = getRandomNotes();
-  console.log(getIntervalName(notes[0], notes[1]));
+  answer = getIntervalName(notes[0], notes[1]);
+  console.log(answer);
   playInterval(notes[0], notes[1]);
 }
 
@@ -109,14 +115,43 @@ function getIntervalName(note1: string, note2: string) {
 
   if (interval === 0) {
     return "unisson";
-  } else if (interval + 1 > 12) {
-    return (
-      intervalNames[interval + (1 % 12)] +
-      "(" +
-      Math.floor(interval + 1 / 12) +
-      "octaves)"
-    );
-  } else {
+  }
+  // for later
+  // else if (interval > 12) {
+  //   return (
+  //     intervalNames[interval % 12] +
+  //     "(" +
+  //     Math.floor(interval / 12) +
+  //     "octaves)"
+  //   );
+  // }
+  else {
     return intervalNames[interval];
+  }
+}
+
+function isCorrectAnswer(userIntervalAnswer: string) {
+  console.log(answer, userIntervalAnswer);
+  if (answer != null) {
+    return answer === userIntervalAnswer ? true : false;
+  } else {
+    return "error";
+  }
+}
+
+function styleDivTrue(divClicked: HTMLElement) {
+  // const [play] = useSound(risingPopos);
+  divClicked.style.background = "green";
+}
+function styleDivFalse(divClicked: HTMLElement) {
+  divClicked.style.background = "red";
+}
+
+export function styleDive(userIntervalAnswer: string) {
+  const divClicked = document.getElementById(userIntervalAnswer);
+  if (isCorrectAnswer(userIntervalAnswer)) {
+    styleDivTrue(divClicked);
+  } else {
+    styleDivFalse(divClicked);
   }
 }
