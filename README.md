@@ -1,5 +1,7 @@
 # Deus Natura
 
+<img src="/public/assets/images/presentation.png" align="right" width="250" alt="presentation">
+
 Deus Natura is a music training platform for artists and musician wanting to improve their skills.  
 Deus natura is live at : https://deusnatura.com  
 The dev version is live at : https://vincent-vst.github.io/  
@@ -7,9 +9,9 @@ The dev version is live at : https://vincent-vst.github.io/
 **author** : vincent@deusnatura.com  
 **release date** : 15/09/24  
 **contact** : contact@deusnatura.com
+<br>
 
 <!-- [image](presentation) -->
-<img src="/public/assets/images/presentation.png" align="right" width="250" alt="presentation">
 
 ## About
 

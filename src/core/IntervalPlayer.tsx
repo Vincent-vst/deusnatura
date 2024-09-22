@@ -1,6 +1,6 @@
 // @ts-ignore
 import { Howl } from "howler";
-import risingPopos from "/src/assets/audio/rising-pops.mp3";
+import bite from "/src/assets/audio/bite.mp3";
 import boop from "/src/assets/audio/boop.mp3";
 
 let answer = "";
@@ -140,7 +140,7 @@ function isCorrectAnswer(userIntervalAnswer: string) {
 
 function styleDivTrue(divClicked: HTMLElement) {
   const fx = new Howl({
-    src: [risingPopos],
+    src: [bite],
   });
   fx.play();
   divClicked.style.background = "#87DD71";
@@ -163,7 +163,9 @@ export function styleDive(userIntervalAnswer: string) {
   const divClicked = document.getElementById(userIntervalAnswer)!;
   if (isCorrectAnswer(userIntervalAnswer)) {
     styleDivTrue(divClicked);
-    playRandomInterval()
+    sleep(800).then(() => {
+      playRandomInterval();
+    });
   } else {
     styleDivFalse(divClicked);
   }
