@@ -38,4 +38,7 @@
     div[title^="Web Audio"] {
         @include button-player();
     }
+    div[title^="midi"] {
+        @include button-player();
+    }
 }

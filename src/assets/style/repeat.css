@@ -55,4 +55,10 @@
 }
 #repeat div[title^="Web Audio"] svg {
   filter: invert(1);
+}
+#repeat div[title^=midi] {
+  border: none !important;
+}
+#repeat div[title^=midi] svg {
+  filter: invert(1);
 }/*# sourceMappingURL=repeat.css.map */

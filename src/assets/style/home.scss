@@ -85,6 +85,10 @@
             border-radius: $border-radius;
             grid-column: span 2;
             @include card-inside(30px);
+            transition: 0.2s;
+            &:hover {
+                box-shadow: 5px 5px 32px 4px rgba(0, 0, 0, 0.18);
+            }
         }
         .card {
             background: $card-background;
@@ -92,6 +96,10 @@
             border: $border;
             border-radius: $border-radius;
             @include card-inside(25px);
+            transition: 0.2s;
+            &:hover {
+                box-shadow: 5px 5px 32px 4px rgba(0, 0, 0, 0.18);
+            }
         }
     }
 }

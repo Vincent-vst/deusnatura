@@ -64,7 +64,15 @@ const score = [
   "https://musescore.com/user/13657576/scores/4870623",
   "https://musescore.com/user/17349061/scores/5217900",
   "https://musescore.com/user/14493821/scores/4370201",
-  "https://musescore.com/jacobviolinist/scores/321951"
+  "https://musescore.com/jacobviolinist/scores/321951",
+  "https://musescore.com/user/38018912/scores/9976861",
+  "https://musescore.com/user/18137871/scores/5658077",
+  "https://musescore.com/user/18137871/scores/5630435",
+  "https://musescore.com/user/13502736/scores/6527025",
+  "https://musescore.com/user/27664967/scores/5572609",
+  "https://musescore.com/user/32145620/scores/5725348",
+  "https://musescore.com/user/10087466/scores/2340126",
+  "https://musescore.com/user/37089714/scores/6546825"
 ];
 
 export function randomScoreURL() {
