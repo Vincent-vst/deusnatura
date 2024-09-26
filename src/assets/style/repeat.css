@@ -23,6 +23,12 @@
   font-family: Inter;
   font-weight: lighter;
 }
+#repeat a {
+  color: #ffffff;
+}
+#repeat a:hover {
+  cursor: pointer;
+}
 #repeat div {
   background-color: transparent !important;
 }
@@ -32,17 +38,26 @@
 #repeat div[title^=play] svg {
   filter: invert(1);
 }
+#repeat div[title^=play]:hover {
+  cursor: pointer;
+}
 #repeat div[title^=pause] {
   border: none !important;
 }
 #repeat div[title^=pause] svg {
   filter: invert(1);
 }
+#repeat div[title^=pause]:hover {
+  cursor: pointer;
+}
 #repeat div[title^=stop] {
   border: none !important;
 }
 #repeat div[title^=stop] svg {
   filter: invert(1);
+}
+#repeat div[title^=stop]:hover {
+  cursor: pointer;
 }
 #repeat div[title^=loop] {
   border: none !important;
@@ -51,14 +66,8 @@
   filter: invert(1);
 }
 #repeat div[title^="Web Audio"] {
-  border: none !important;
-}
-#repeat div[title^="Web Audio"] svg {
-  filter: invert(1);
+  display: none !important;
 }
 #repeat div[title^=midi] {
-  border: none !important;
-}
-#repeat div[title^=midi] svg {
-  filter: invert(1);
+  display: none !important;
 }/*# sourceMappingURL=repeat.css.map */

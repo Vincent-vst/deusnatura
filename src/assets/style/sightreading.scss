@@ -12,6 +12,11 @@
         font-family: Inter;
         font-weight: lighter;
     }
+    img{
+        &:hover{
+            cursor: pointer;
+        }
+    }
 
     iframe{
         height: 80vh;

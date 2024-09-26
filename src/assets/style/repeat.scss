@@ -12,6 +12,13 @@
         font-weight: lighter;
     }
 
+    a {
+        color: $font-primary;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     div {
         background-color: transparent !important;
     }
@@ -25,20 +32,31 @@
 
     div[title^="play"] {
         @include button-player();
+        &:hover {
+            cursor: pointer;
+        }
     }
     div[title^="pause"] {
         @include button-player();
+        &:hover {
+            cursor: pointer;
+        }
     }
     div[title^="stop"] {
         @include button-player();
+        &:hover {
+            cursor: pointer;
+        }
     }
     div[title^="loop"] {
         @include button-player();
     }
     div[title^="Web Audio"] {
-        @include button-player();
+        // @include button-player();
+        display: none !important;
     }
     div[title^="midi"] {
-        @include button-player();
+        // @include button-player();
+        display: none !important;
     }
 }

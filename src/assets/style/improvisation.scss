@@ -9,7 +9,17 @@
     @include center; 
     flex-direction: column;
 
+    h1{
+        font-weight: lighter;
+    }
+
     audio{
         filter: invert(1);
+    }
+
+    img{
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

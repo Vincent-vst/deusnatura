@@ -20,6 +20,12 @@
   align-items: center;
   flex-direction: column;
 }
+#improvisation h1 {
+  font-weight: lighter;
+}
 #improvisation audio {
   filter: invert(1);
+}
+#improvisation img:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=improvisation.css.map */

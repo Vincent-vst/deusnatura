@@ -24,6 +24,9 @@
   font-weight: lighter;
   margin-bottom: 50px;
 }
+#ear-training img:hover {
+  cursor: pointer;
+}
 #ear-training ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -40,7 +43,15 @@
   border-radius: 5px;
 }
 #ear-training ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   color: #ffffff;
   font-family: Inter;
   font-weight: lighter;
+}
+#ear-training ul li a:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=interval.css.map */

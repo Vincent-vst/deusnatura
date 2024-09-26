@@ -22,4 +22,7 @@
 }
 #theory h1 {
   font-weight: lighter;
+}
+#theory img:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=theory.css.map */

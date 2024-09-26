@@ -4,6 +4,7 @@ import bite from "/src/assets/audio/bite.mp3";
 import boop from "/src/assets/audio/boop.mp3";
 
 let answer = "";
+let score = 0;
 
 export const intervalNames = [
   "unisson",
@@ -163,10 +164,12 @@ export function styleDive(userIntervalAnswer: string) {
   const divClicked = document.getElementById(userIntervalAnswer)!;
   if (isCorrectAnswer(userIntervalAnswer)) {
     styleDivTrue(divClicked);
-    sleep(800).then(() => {
+    console.log(score ++);
+    sleep(600).then(() => {
       playRandomInterval();
     });
   } else {
+    score=0;
     styleDivFalse(divClicked);
   }
 }

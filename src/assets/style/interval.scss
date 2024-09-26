@@ -14,6 +14,12 @@
         margin-bottom: 50px;
     }
 
+    img{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
     ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -28,9 +34,16 @@
             @include center;
             border-radius: 5px;
             a {
+                @include center; 
+                height: 100%;
+                width: 100%;
                 color: $font-primary;
                 font-family: Inter;
                 font-weight: lighter;
+
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }
