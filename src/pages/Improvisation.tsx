@@ -9,10 +9,15 @@ export default function Improvisation() {
     <>
       <div id="improvisation">
         <h1>Improvisation</h1>
-        <a href={void 0} onClick={() => setBackingTrack(randomBackingTrack())}>
-          <img src={random} alt="random backing track" />
-        </a>
-        <audio controls src={backingTrack} />
+        <div className="module">
+          <a
+            href={void 0}
+            onClick={() => setBackingTrack(randomBackingTrack())}
+          >
+            <img src={random} alt="random backing track" />
+          </a>
+          <audio controls src={backingTrack} />
+        </div>
       </div>
     </>
   );

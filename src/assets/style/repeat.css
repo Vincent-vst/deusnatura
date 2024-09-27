@@ -23,6 +23,27 @@
   font-family: Inter;
   font-weight: lighter;
 }
+#repeat .module {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#repeat .module .player {
+  display: flex;
+  align-items: center;
+}
+#repeat .module .levels {
+  margin-top: 20px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  font-family: inter;
+}
+#repeat audio {
+  filter: invert(1);
+}
 #repeat a {
   color: #ffffff;
 }

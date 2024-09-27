@@ -25,4 +25,16 @@
 }
 #theory img:hover {
   cursor: pointer;
+}
+#theory .question {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+#theory .question .scale {
+  margin-top: 15px;
+  font-weight: normal;
 }/*# sourceMappingURL=theory.css.map */

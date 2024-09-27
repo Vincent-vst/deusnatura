@@ -23,9 +23,11 @@ export default function Theory() {
         <a href={void 0} onClick={() => randomExercice()}>
           <img src={randomIcon} alt="random theory" />
         </a>
-        <p>Play the following : {exercice}</p>
         <div className="question">
-          {note} {exercice === "scale" ? mode : chord}
+          <p>Play the following {exercice} :</p>
+          <div className="scale">
+            {note} {exercice === "scale" ? mode : chord}
+          </div>
         </div>
       </div>
     </>

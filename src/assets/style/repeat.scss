@@ -12,6 +12,26 @@
         font-weight: lighter;
     }
 
+    .module{
+        height: 150px; 
+        @include center; 
+        flex-direction: column;
+        .player{
+            display: flex;
+            align-items: center;
+        }
+        .levels{
+            margin-top : 20px; 
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            font-family: inter;
+        }
+    }
+    audio{
+        filter: invert(1); 
+    }
+
     a {
         color: $font-primary;
         &:hover {

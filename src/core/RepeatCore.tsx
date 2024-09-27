@@ -12,7 +12,7 @@ export default function RepeatCore(props: Props) {
     return "/assets/audio/midi/" + Math.floor(Math.random() * 102) + ".mid";
   }
   function randomSampleFile() {
-    return "/assets/audio/samples/" + Math.floor(Math.random() * 20) + ".mp3";
+    return "/assets/audio/samples/" + Math.floor(Math.random() * 37) + ".mp3";
   }
   const [midiFile, setMidiFile] = useState(randomMidiFile);
   const [sampleFile, setSampleFile] = useState(randomSampleFile);
@@ -20,19 +20,23 @@ export default function RepeatCore(props: Props) {
   if (props.level === 2) {
     return (
       <>
-        <a href={void 0} onClick={() => setSampleFile(randomSampleFile())}>
-          <img src={random} alt="random sample" />
-        </a>
-        <audio src={sampleFile} controls></audio>
+        <div className="player">
+          <a href={void 0} onClick={() => setSampleFile(randomSampleFile())}>
+            <img src={random} alt="random sample" />
+          </a>
+          <audio src={sampleFile} controls></audio>
+        </div>
       </>
     );
   } else {
     return (
       <>
-        <a href={void 0} onClick={() => setMidiFile(randomMidiFile())}>
-          <img src={random} alt="random midi" />
-        </a>
-        <MidiPlayer src={midiFile} />
+        <div className="player">
+          <a href={void 0} onClick={() => setMidiFile(randomMidiFile())}>
+            <img src={random} alt="random midi" />
+          </a>
+          <MidiPlayer src={midiFile} />
+        </div>
       </>
     );
   }

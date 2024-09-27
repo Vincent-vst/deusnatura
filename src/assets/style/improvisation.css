@@ -28,4 +28,9 @@
 }
 #improvisation img:hover {
   cursor: pointer;
+}
+#improvisation .module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=improvisation.css.map */

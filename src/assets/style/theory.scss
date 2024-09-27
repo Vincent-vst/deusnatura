@@ -17,4 +17,15 @@
             cursor: pointer;
         }
     }
+    .question{
+        height: 100px;
+        @include center;
+        flex-direction: column;
+        font-weight: lighter;
+
+        .scale{
+            margin-top: 15px;
+            font-weight: normal;
+        }
+    }
 }
