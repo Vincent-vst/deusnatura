@@ -68,4 +68,7 @@ docker compose up --build
 ## Infos
 
 For any issues regarding deusnatura.com, contact me at `contact@deusnatura.com`  
-Pull requests are welcome.
+Pull requests are welcome.     
+
+**Known issues** :   
+Website doesn't work on iPhone because apple does not allow autoplay.   
