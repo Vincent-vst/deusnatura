@@ -9,7 +9,7 @@ interface Props {
 
 export default function RepeatCore(props: Props) {
   function randomMidiFile() {
-    return "/assets/audio/midi/" + Math.floor(Math.random() * 155) + ".mid";
+    return "/assets/audio/midi/" + Math.floor(Math.random() * 171) + ".mid";
   }
   function randomSampleFile() {
     return "/assets/audio/samples/" + Math.floor(Math.random() * 113) + ".mp3";
