@@ -12,7 +12,7 @@ export default function RepeatCore(props: Props) {
     return "/assets/audio/midi/" + Math.floor(Math.random() * 171) + ".mid";
   }
   function randomSampleFile() {
-    return "/assets/audio/samples/" + Math.floor(Math.random() * 151) + ".mp3";
+    return "/assets/audio/samples/" + Math.floor(Math.random() * 190) + ".mp3";
   }
   const [midiFile, setMidiFile] = useState(randomMidiFile);
   const [sampleFile, setSampleFile] = useState(randomSampleFile);
