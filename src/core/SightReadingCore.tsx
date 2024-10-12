@@ -115,7 +115,23 @@ const score = [
   "https://musescore.com/user/6516671/scores/3039756",
   "https://musescore.com/user/33397673/scores/5828207",
   "https://musescore.com/user/1234691/scores/2373131",
-  "https://musescore.com/user/2673421/scores/5650406"
+  "https://musescore.com/user/2673421/scores/5650406",
+  "https://musescore.com/user/37025/scores/56811",
+  "https://musescore.com/amaya/scores/6468262",
+  "https://musescore.com/user/35478073/scores/6219923",
+  "https://musescore.com/classicman/scores/274576",
+  "https://musescore.com/user/2451366/scores/5971181",
+  "https://musescore.com/user/28976415/scores/5933686",
+  "https://musescore.com/user/8095736/scores/5516259",
+  "https://musescore.com/user/4367366/scores/6612423",
+  "https://musescore.com/user/21537416/scores/4985294",
+  "https://musescore.com/user/181766/scores/4283541",
+  "https://musescore.com/user/2675376/scores/4910775",
+  "https://musescore.com/user/37774/scores/55810",
+  "https://musescore.com/user/1857611/scores/3912671",
+  "https://musescore.com/user/33616945/scores/6781344",
+  "https://musescore.com/pianotango/scores/4202051",
+  "https://musescore.com/user/7307766/scores/5690922"
 ];
 
 export function randomScoreURL() {
