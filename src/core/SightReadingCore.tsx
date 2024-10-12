@@ -104,7 +104,18 @@ const score = [
   "https://musescore.com/user/385716/scores/6746782",
   "https://musescore.com/user/34258191/scores/6466442",
   "https://musescore.com/user/385716/scores/6471447",
-  "https://musescore.com/user/10806561/scores/5554771"
+  "https://musescore.com/user/10806561/scores/5554771",
+  "https://musescore.com/user/30191403/scores/5361595",
+  "https://musescore.com/user/29926531/scores/5672489",
+  "https://musescore.com/user/19710/scores/7080972",
+  "https://musescore.com/user/84251/scores/5260069",
+  "https://musescore.com/user/27350511/scores/5178247",
+  "https://musescore.com/user/201031/scores/1491916",
+  "https://musescore.com/user/28358094/scores/5573632",
+  "https://musescore.com/user/6516671/scores/3039756",
+  "https://musescore.com/user/33397673/scores/5828207",
+  "https://musescore.com/user/1234691/scores/2373131",
+  "https://musescore.com/user/2673421/scores/5650406"
 ];
 
 export function randomScoreURL() {
