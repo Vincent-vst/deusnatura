@@ -72,3 +72,10 @@ Pull requests are welcome.
 
 **Known issues** :   
 Website doesn't work on iPhone because apple does not allow autoplay.   
+
+## Roadmaps
+
+- [ ] : chords ear training (recognize minor, major, augmented, diminished, sus2, sus4, M7 ...)
+- [ ] : scale ear training 
+- [ ] : rythm exercices  
+
