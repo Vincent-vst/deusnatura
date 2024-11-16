@@ -176,7 +176,28 @@ const score = [
   "https://musescore.com/user/17829001/scores/5945344",
   "https://musescore.com/user/124709/scores/1845321",
   "https://musescore.com/user/2770276/scores/11260567",
-  "https://musescore.com/user/17829001/scores/5427320"
+  "https://musescore.com/user/17829001/scores/5427320",
+  "https://musescore.com/user/35766237/scores/6473928",
+  "https://musescore.com/user/3453/scores/32045",
+  "https://musescore.com/user/5513406/scores/4993674",
+  "https://musescore.com/user/2451366/scores/5946365",
+  "https://musescore.com/user/6579871/scores/1954631",
+  "https://musescore.com/user/7799141/scores/1798356",
+  "https://musescore.com/user/35766237/scores/8571746",
+  "https://musescore.com/user/38449520/scores/6754113",
+  "https://musescore.com/user/26947216/scores/9770629",
+  "https://musescore.com/user/20974116/scores/4158231",
+  "https://musescore.com/user/523986/scores/2619116",
+  "https://musescore.com/user/3606781/scores/7876400",
+  "https://musescore.com/user/18749886/scores/5259374",
+  "https://musescore.com/user/3148881/scores/1159496",
+  "https://musescore.com/user/34495322/scores/6043285",
+  "https://musescore.com/user/2451366/scores/6167958",
+  "https://musescore.com/user/7686116/scores/5158935",
+  "https://musescore.com/user/3525811/scores/2580741",
+  "https://musescore.com/user/4459451/scores/5034251",
+  "https://musescore.com/user/32888628/scores/6103248",
+  "https://musescore.com/user/13731516/scores/2926641"
 ];
 
 export function randomScoreURL() {

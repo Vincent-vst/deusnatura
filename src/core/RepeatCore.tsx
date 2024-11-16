@@ -7,7 +7,7 @@ import random from "/src/assets/icons/random.png";
 
 export default function RepeatCore() {
   function randomSampleFile() {
-    return "/assets/audio/samples/" + Math.floor(Math.random() * 270) + ".mp3";
+    return "/assets/audio/samples/" + Math.floor(Math.random() * 306) + ".mp3";
   }
   const [sampleFile, setSampleFile] = useState(randomSampleFile);
 
