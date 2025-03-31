@@ -35,6 +35,8 @@ It consists of five main modules :
 - _improvisation_ : A random backing track player
 - _sight reading_ : Display a random score
 
+life update : I got accepted at berklee ! 
+
 ## Docs
 
 The docs are published on my [notion](https://vincentdescatoire.notion.site/Documentation-and-bug-report-bbc7d42576684a61b1d2f75c4bfa0b7f).
